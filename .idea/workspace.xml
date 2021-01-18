@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="22d774d6-5cb7-49b6-857b-62cd96d51d9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +31,14 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
@@ -27,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -41,17 +70,6 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-microservices" />
       <working_directory value="$PROJECT_DIR$" />
@@ -74,33 +92,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610944761530</updated>
-      <workItem from="1610944768719" duration="2901000" />
+      <workItem from="1610944768719" duration="3819000" />
+      <workItem from="1610991438383" duration="1929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="561" y="441" key="#GOROOT" timestamp="1610945055606">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="561" y="441" key="#GOROOT/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610945055606" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1610954342281">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1610990926963">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610954342281" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1610954342281">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610990926963" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1610990926963">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610954342281" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1610954342281">
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610990926963" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1610990926963">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610954342281" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1610954342281">
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610990926963" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1610990926963">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610954342281" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610990926963" />
+    <state x="209" y="60" key="new project wizard" timestamp="1610986080627">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="60" key="new project wizard/0.0.1536.834/1920.69.1024.738@0.0.1536.834" timestamp="1610986080627" />
   </component>
 </project>
