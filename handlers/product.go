@@ -52,12 +52,14 @@ func (p *Products) getProducts(rw http.ResponseWriter, r *http.Request) {
 func (p *Products) addProducts(rw http.ResponseWriter, r *http.Request) {
 	p.l.Println("Handle POST Products")
 
-	//// fetch the products from the datastore
-	//lp := data.GetProducts()
-	//
-	//// serialize the list to JSON
-	//err := lp.ToJSON(rw)
-	//if err != nil {
-	//	http.Error(rw, "Unable to marshal json", http.StatusInternalServerError)
-	//}
+	// fetch the products from the datastore
+	prod := &data.Product{}
+
+	// serialize the list to JSON
+	err := prod.FromJSON(r.Body)
+	if err != nil {
+		http.Error(rw, "Unable to marshal json", http.StatusBadRequest)
+	}
+	data.AddProduct(prod)
+	p.l.Printf("%#v",prod)
 }
