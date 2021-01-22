@@ -25,6 +25,10 @@ func (p *Products) ServeHTTP(rw http.ResponseWriter, r *http.Request) {
 		p.getProducts(rw, r)
 		return
 	}
+	if r.Method == http.MethodPost {
+		p.addProducts(rw, r)
+		return
+	}
 
 	// catch all
 	// if no method is satisfied return an error
@@ -43,4 +47,17 @@ func (p *Products) getProducts(rw http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		http.Error(rw, "Unable to marshal json", http.StatusInternalServerError)
 	}
+}
+
+func (p *Products) addProducts(rw http.ResponseWriter, r *http.Request) {
+	p.l.Println("Handle POST Products")
+
+	//// fetch the products from the datastore
+	//lp := data.GetProducts()
+	//
+	//// serialize the list to JSON
+	//err := lp.ToJSON(rw)
+	//if err != nil {
+	//	http.Error(rw, "Unable to marshal json", http.StatusInternalServerError)
+	//}
 }
